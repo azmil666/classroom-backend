@@ -13,7 +13,7 @@ if (!fs.existsSync(apmConfigPath)) {
     console.log("✅ apminsightnode.json generated dynamically");
 }
 
-import "apminsight";
+await import("apminsight");
 
 console.log("✅ Site24x7 agent loaded");
 
