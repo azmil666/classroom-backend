@@ -1,10 +1,4 @@
-import * as AgentAPI from "apminsight";
-
-
-(AgentAPI as any).config({
-    licenseKey: process.env.SITE24X7_LICENSE_KEY,
-    appName: process.env.SITE24X7_APP_NAME || "classroom-backend",
-});
+import "apminsight";
 
 
 
