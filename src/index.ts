@@ -1,3 +1,18 @@
+import fs from "fs";
+import path from "path";
+
+const apmConfigPath = path.resolve(process.cwd(), "apminsightnode.json");
+
+if (!fs.existsSync(apmConfigPath)) {
+    const config = {
+        licenseKey: process.env.SITE24X7_LICENSE_KEY,
+        appName: process.env.SITE24X7_APP_NAME || "classroom-backend",
+    };
+
+    fs.writeFileSync(apmConfigPath, JSON.stringify(config, null, 2));
+    console.log("✅ apminsightnode.json generated dynamically");
+}
+
 import "apminsight";
 
 console.log("✅ Site24x7 agent loaded");
