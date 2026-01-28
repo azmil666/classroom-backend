@@ -1,6 +1,6 @@
 import "apminsight";
 
-
+console.log("✅ Site24x7 agent loaded");
 
 import express from 'express';
 import cors from 'cors';
