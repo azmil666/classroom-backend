@@ -1,71 +1,78 @@
-# 🏗️ Classroom Management System – Backend API
+# 🏗️ Classroom Management System — Backend API
 
-A scalable REST API powering a multi-role academic management platform with authentication, media handling, and secure data operations.
+A scalable, production-ready REST API powering a **multi-role academic management platform** with secure authentication, media handling, and high-performance data operations.
 
-Designed with performance, security, and maintainability in mind.
+Designed with a strong focus on **performance**, **security**, and **maintainability**.
 
 ---
 
-## 🌐 API Consumer
+## 🌐 Connected Client
 
-👉 Frontend Client: [https://github.com/](https://github.com/)<your-username>/classroom-frontend
+🎨 **Frontend Repository**
+👉 [https://github.com/azmil666/classroom-frontend](https://github.com/azmil666/classroom-frontend)
 
 ---
 
 ## ⚙️ Tech Stack
 
-### Backend
+### 🧠 Backend
 
-* 🟢 **Node.js** – Runtime environment
-* 🚀 **Express.js** – REST API framework
-* 🗃️ **Drizzle ORM** – Type-safe database access
-* 🐘 **PostgreSQL (Neon)** – Serverless database
-* 🔐 **Better Auth** – Authentication and authorization
-* 🛡️ **Arcjet** – Rate limiting and bot protection
-* ☁️ **Cloudinary** – Media storage and optimization
-
-### DevOps & Monitoring
-
-* 🤖 **CodeRabbit** – Automated code reviews
-* 📡 **Site24x7** – Uptime and performance monitoring
+| Technology               | Purpose                        |
+| ------------------------ | ------------------------------ |
+| 🟢 **Node.js**           | JavaScript runtime environment |
+| 🚀 **Express.js**        | REST API framework             |
+| 🗃️ **Drizzle ORM**      | Type-safe database access      |
+| 🐘 **PostgreSQL (Neon)** | Serverless relational database |
+| 🔐 **Better Auth**       | Authentication & authorization |
+| 🛡️ **Arcjet**           | Rate limiting & bot protection |
+| ☁️ **Cloudinary**        | Media storage & optimization   |
 
 ---
 
-## ✨ Core Features
+### 📡 DevOps & Monitoring
 
-* 🔑 Secure authentication with role-based authorization
-* ⚡ High-performance database queries using Drizzle
-* 🧑‍🎓 Student enrollment via secure join codes
-* 🧑‍🏫 Faculty and department management APIs
-* 📷 Media uploads and optimization
-* 🛡️ Bot protection and rate limiting
-* 📦 Scalable architecture
+| Tool              | Purpose                         |
+| ----------------- | ------------------------------- |
+| 🤖 **CodeRabbit** | Automated code reviews          |
+| 📊 **Site24x7**   | Uptime & performance monitoring |
+
+---
+
+## ✨ Core Capabilities
+
+* 🔑 **Role-Based Authentication** — Secure access for Admins, Teachers, and Students
+* ⚡ **High-Performance Data Layer** — Optimized queries using Drizzle ORM
+* 🧑‍🎓 **Join-Code Enrollment System** — Controlled student onboarding
+* 🧑‍🏫 **Faculty & Department APIs** — Structured academic management
+* 📷 **Media Upload Pipeline** — Cloudinary-powered asset handling
+* 🛡️ **Security Controls** — Bot protection, rate limits, and validation
+* 📦 **Scalable Architecture** — Clean modular backend design
 
 ---
 
 ## 🛠️ Getting Started
 
-### Prerequisites
+### ✅ Prerequisites
 
-* Node.js
+* Node.js (18+ recommended)
 * PostgreSQL (Neon recommended)
 * npm
 
 ---
 
-### Installation
+### 📦 Installation
 
 ```bash
-git clone https://github.com/<your-username>/classroom-backend.git
+git clone https://github.com/azmil666/classroom-backend.git
 cd classroom-backend
 npm install
 ```
 
 ---
 
-### Environment Variables
+### 🔐 Environment Configuration
 
-Create `.env`:
+Create a `.env` file in the project root:
 
 ```env
 DATABASE_URL=
@@ -75,15 +82,17 @@ FRONTEND_URL=http://localhost:5173
 BETTER_AUTH_SECRET=
 ```
 
+> Replace the values with your own credentials.
+
 ---
 
-### Run Server
+### ▶️ Run Locally
 
 ```bash
 npm run dev
 ```
 
-API runs at:
+API will be available at:
 
 ```
 http://localhost:8000
@@ -91,9 +100,15 @@ http://localhost:8000
 
 ---
 
-## 🔗 Related Repository
+## 🔗 Related Project
 
-👉 Frontend : [https://github.com/](https://github.com/)azmil666/classroom-frontend
+🎨 **Frontend Client**
+👉 [https://github.com/azmil666/classroom-frontend](https://github.com/azmil666/classroom-frontend)
 
 ---
 
+## ⭐ If You Find This Useful
+
+Feel free to ⭐ the repository or explore the frontend implementation.
+
+---
